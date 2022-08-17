@@ -1,0 +1,13 @@
+file_type: csv
+dataset_name: testfile
+file_name: penguins
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - CulmenLength
+    - CulmenDepth
+    - FlipperLength
+    - BodyMass
+    - Species
